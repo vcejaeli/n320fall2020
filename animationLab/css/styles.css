@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* ___________Title_____________________ */
+
+.topRectangle {
+    width: 100%;
+    height: 150px;
+    background: #05225c;
+    margin: 0 auto;
+    
+}
+
+/* ____________________________________ */
+
+.column {
+    float: left;
+    width: 28%;
+    padding: 10px;
+    height: 300px;
+    margin: 10px;
+    background-color: #92278f;
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    /* margin: 0 auto; */
+}
+
+/* GAAAHH I cant center this  */
+
+
+
+/* 
+.bottomRect_1 {
+    float: left;
+    width: 150px;
+    height: 200px;
+    background: #92278f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
