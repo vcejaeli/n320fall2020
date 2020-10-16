@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Intro Vue Lab</title>
+</head>
+<body>
+
+    <div id="app">
+        {{ message }}
+        <p>{{ title }}</p>
+
+        <ul>
+            <li v-for="the monkey book"> {{ book }}</li>
+            
+            <!-- component, i hope i'm doing this right.. -->
+            <this-book
+                v-for="the monkey book"
+                v-bind: book-type="book" ></this-book>
+                <!-- binding to component -->
+        </ul>
+    
+        <button v-on:click="buyBook">Purchase</button>
+
+        <button v-if="ready">Purchase Sequel</button>
+    </div>
+    
+    <!-- watch those divs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+<!-- instructions
+Create a Vue Application that is comprised of:
+
+A Book Component (it would be cool if it was styled to look like a book cover)
+    Must contain an Title, an Emoji/smiley for the 'cover', and the author
+        The above three items should be properties that are passed into the component from its tag
+
+A Vue.js application that
+    Has tags for at least two unique books (different properties for author / emoji / title )
+        A button to show / hide the second book using a v-if prop 
+-->
