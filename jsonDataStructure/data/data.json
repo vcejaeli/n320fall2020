@@ -1,0 +1,31 @@
+[
+
+{
+    "name": "Batman",
+    "year": 1989,
+    "characters": [ "Batman/Bruce Wayne", "Joker", "Vicki Vale" ]
+}, 
+
+{
+    "name": "Batman Begins",
+    "year": 2005,
+    "characters": [ "Batman/Bruce Wayne", "Alfred", "Ra's Al Ghul", 
+    "Rachel Dawes", "Jim Gordon", "The Scarecrow" ]
+},
+
+{
+    "name": "The Dark Knight",
+    "year": 2008,
+    "characters": [ "Batman/Bruce Wayne", "Alfred", "Joker", 
+    "Rachel Dawes", "Jim Gordon", "Harvey Dent", "Lucius Fox" ]
+},
+
+{
+    "name": "The Dark Knight Rises",
+    "year": 2012,
+    "characters": [ "Batman/Bruce Wayne", "Alfred", "Bane", 
+    "Blake/Robin", "Selina/Catwoman", "Miranda/Talia Al Ghul", "Lucius Fox" ]
+}
+
+]
+
