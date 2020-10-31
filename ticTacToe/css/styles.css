@@ -11,6 +11,11 @@ h1 {
     /* padding: 20px; */
 }
 
+.move{
+    width: 66%;
+    margin-left: 15%;
+    margin-top: 13%;
+}
 .container {
     background: #06c6c9;
     margin: 30px;
