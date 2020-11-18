@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* important -> makes page work? */
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+/* ________Top of Page__________ */
+/* go in order as your page does */
+
+nav {
+    /* when you use Pos. Fixed it removes defeault properties so add width
+    : 100% back in */
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: #fff;
+    z-index: 99;
+    display: flex;
+    /* z index is to ensure that all browsers will load nav properly and not in background
+    only works with Position*/
+}
+
+.logo-nav {
+    width: auto;
+    height: 80%;
+    display: flex;
+    vertical-align: middle;
+    margin-left: 70px;
+    margin-top: 3px;
+}
+
+/* display: flex;
+vertical-align: top;
+width: 100px;
+height: 100px;
+margin-right: 10px;
+margin-top: 3px;  */
+
+    nav a {
+        color: #e56717;
+        text-align: center;
+        padding: 14px, 16px;
+        text-decoration: none;
+        font-size: 20px;
+        margin: auto;
+    }
+    /* alternate way to modifyNAV (esp. with logos) @min 26ish */
+
+    nav.navigation-bar a:hover {
+        color: #20b8cc;
+    }
+
+    section {
+        /* goes clockwise (top right bottom left) */
+        padding: 80px;
+        /* this might be an issue later..  (padding would work like it is but not
+        like padding: 80,20,20,20; idk why */
+    }
+
+.allClass {
+    /* this min-height fix will stop your content from overlapping and going
+    into the other pages, it will also adjust to browser size.  */
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* attachment fixed does cool scroll effect */
+    
+}
+
+.hero {
+    background-color: #20b8cc;
+    font-size: 30px;
+
+}
+
+p {
+    color: white;
+}
+
+    .subSection {
+        height: 25%;
+    }
+
+    .subSection-top {
+        background-color: #20b8cc;
+    }
+
+    .subSection-bottom {
+        background-color: #20b8cc;
+    }
+
+.about {
+    background-image: url(../img/vlady_leaning_circles.jpg);
+    /* useful but not necessary */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.work {
+        /* background-image: url(../img/keyboard_fade.jpg); */
+        background-image: url(../img/bottom_dots.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+    /* works box 1 */
+    .works {
+        height: 100px;
+        width: 100px;
+        background-color: #e56717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+        .works h1 {
+            margin: 10px 0px 10px 0px;
+        }
+
+.contact {
+    background-image: url(../img/redCalculator.jpg);
+}
