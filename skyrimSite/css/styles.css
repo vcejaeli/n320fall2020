@@ -97,7 +97,7 @@ margin-top: 3px;  */
 }
 
 .hero {
-    background-image: url(/img/dragonborn-mountain-view.jpg);
+    background-image: url(../img/dragonborn-mountain-view.jpg);
     font-size: 30px;
 }
 
