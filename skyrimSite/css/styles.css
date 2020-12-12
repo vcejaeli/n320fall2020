@@ -156,6 +156,13 @@ p {
         justify-content: space-around;
 }
 
+
+#skyrimCity {
+    width: 510px;
+    height: 100%;
+    padding: 10px;
+}
+
     /* tip box 1 */
     /* .tip {
         height: 100px;
